@@ -1,0 +1,1 @@
+rails g model User email:string password_digest:string
