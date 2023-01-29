@@ -1,1 +1,7 @@
 rails g model User email:string password_digest:string
+
+rails db:rollback
+rails db:migrate
+
+rails db:migrate:redo
+rails db:migrate:status
